@@ -1,2 +1,2 @@
 # os-codes
-codes of c and others
+codes of c 
