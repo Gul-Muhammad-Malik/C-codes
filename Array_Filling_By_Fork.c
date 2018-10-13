@@ -145,10 +145,10 @@ if(cpid==0)
 //return 1;
 }
 //else
- if (cpid==0)
+ if (cpid==0)	//for parent
 {
 	//wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);	wait(NULL);
-	printf("%d \n",add);
+	printf("%d \n",add);	//fork return result
 }
 //wait(NULL);
 	//wait(NULL);
