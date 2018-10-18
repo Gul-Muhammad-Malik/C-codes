@@ -11,7 +11,7 @@ void * fill(void *args)
  int end=start+chunk_size;
  sum=0;
  int i;
- for( i=0;i<end;i++)	//summing all values of chunk size from array
+ for( i=start;i<end;i++)	//summing all values of chunk size from array
  {
   sum=sum+arr[i];
  }
